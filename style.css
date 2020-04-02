@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+path{
+  stroke: green;
+  stroke-width: 2px;
+  
+}
+
+
+
+
+
+
+
+
+g.hidden line,
+g.hidden path{
+  display: none
+}
