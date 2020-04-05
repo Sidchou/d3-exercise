@@ -4,16 +4,54 @@ html, body {
   height: 100%;
   width: 100%;
 }
-path{
+svg{
   stroke: green;
   stroke-width: 2px;
-  
+  fill: none;
+}
+
+rect {
+  stroke: cornflowerblue;
+  fill: lightblue;
+
+}
+circle{
+  fill: indianred;
+}
+text{
+  font-family: arial;
+  fill: white;
+  font-size: 11px;
 }
 
 
 
 
+g path.top{
+stroke: none;
+fill: lightblue;
+}
+g path.middle{
+stroke: none;
+fill: lightgreen;
+}
+g path.bottom{
+stroke: none;
+fill: lightpink;
+}
 
+
+
+g.cells{
+  fill: white;
+  stroke: lightsteelblue;
+}
+g.core circle{
+  fill:steelblue;
+}
+/* g.cells path:hover{
+  fill: yellow;
+} */
 
 
 
